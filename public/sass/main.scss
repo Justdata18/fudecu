@@ -1,0 +1,48 @@
+// Settings
+@import 'settings';
+
+body {
+  
+
+  // HEADER
+
+  .logo {
+    margin-top: 20px;
+
+    .head-logo {
+      width: 40%;
+      height: 20%;
+    }
+  }
+
+  // Login-envoirement
+
+    main {
+      margin-bottom: 10%;
+
+      .login {
+
+        .login-button {
+            margin-top: 10%;
+
+          .btn-primary {
+            border: none;
+          }
+        }
+
+      }
+    }
+
+  footer {
+    background-color: $color4;
+    height: 25px;
+
+    .row {
+      color: $color1;
+
+      span {
+        height: 20px;
+      }
+    }
+  }
+}

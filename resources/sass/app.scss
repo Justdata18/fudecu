@@ -2,14 +2,14 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Settings
-@import 'settings';
-
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Main css file
+@import 'main';
 
 .navbar-laravel {
   background-color: #fff;
@@ -18,4 +18,8 @@
 
 #log1 {
   border-right: 10px;
+}
+
+.head-logo {
+  width: 200px;
 }
