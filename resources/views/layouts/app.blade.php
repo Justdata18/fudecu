@@ -39,6 +39,11 @@
                         <span>Copyright by JustData BV</span>
                         <span>&copy; 2018</span>
                     </div>
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-5 tr">
+                        <span>This website was build by the JustData BV Lelystad</span>
+                    </div>
                 </div>
             </div>
         </footer>

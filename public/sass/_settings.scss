@@ -9,4 +9,9 @@ $color4: grey;
 
   .btn-primary {
     background-color: $color3;
+    border: none;
+  }
+
+  .btn-link {
+    color: $color3 !important;
   }

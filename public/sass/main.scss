@@ -2,7 +2,7 @@
 @import 'settings';
 
 body {
-  
+
 
   // HEADER
 
@@ -18,16 +18,12 @@ body {
   // Login-envoirement
 
     main {
-      margin-bottom: 10%;
+      margin: 2.5% 0 7.5% 0;
 
       .login {
 
         .login-button {
             margin-top: 10%;
-
-          .btn-primary {
-            border: none;
-          }
         }
 
       }
@@ -42,6 +38,10 @@ body {
 
       span {
         height: 20px;
+      }
+
+      .tr {
+        text-align: right;
       }
     }
   }
