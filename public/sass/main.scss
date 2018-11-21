@@ -45,4 +45,37 @@ body {
       }
     }
   }
+
+  .headerimage {
+    h1 {
+      text-align: center;
+      width: 400px;
+      float: right;
+      font-size: 20px;
+
+    }
+    img {
+      width: 300px;
+    }
+  }
+  .contenttext {
+    float: left;
+    margin-top: 50px;
+    width: 80%;
+    p {
+      font-size: 18px;
+    }
+  }
+  .footertext {
+    float: right;
+    p {
+      font-size: 18px;
+      margin-top: 50px;
+    }
+  }
+  .footerimage {
+    margin-top: 50px;
+  }
+
+
 }
