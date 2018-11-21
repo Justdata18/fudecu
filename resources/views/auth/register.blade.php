@@ -87,6 +87,49 @@
                                 </div>
                             </div>
 
+                            <div class="form-group row">
+                                <label for="companyname" class="col-md-4 col-form-label text-md-right">{{ __('Bedrijfsnaam*') }}</label>
+
+                                <div class="col-md-6">
+                                    <input id="companyname" type="text" class="form-control{{ $errors->has('companyname') ? ' is-invalid' : '' }}" name="companyname" value="{{ old('companyname') }}" required autofocus>
+
+                                    @if ($errors->has('companyname'))
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $errors->first('companyname') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="companynumber" class="col-md-4 col-form-label text-md-right">{{ __('KvK Nummer*') }}</label>
+
+                                <div class="col-md-6">
+                                    <input id="birthdate" type="text" class="form-control{{ $errors->has('companynumber') ? ' is-invalid' : '' }}" name="companynumber" value="{{ old('companynumber') }}" required autofocus>
+
+                                    @if ($errors->has('companynumber'))
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $errors->first('companynumber') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                            </div>
+
+
+                            <div class="form-group row">
+                                <label for="idnumber" class="col-md-4 col-form-label text-md-right">{{ __('BSN Nummer') }}</label>
+
+                                <div class="col-md-6">
+                                    <input id="idnumber" type="text" class="form-control{{ $errors->has('idnumber') ? ' is-invalid' : '' }}" name="idnumber" value="{{ old('idnumber') }}" required autofocus>
+
+                                    @if ($errors->has('idnumber'))
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $errors->first('idnumber') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                            </div>
+
                             <hr style="border-top: 2px solid rgba(0,0,0,.1);">
 
                             <div class="form-group row">
@@ -124,6 +167,12 @@
                                     <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                                 </div>
                             </div>
+                            
+                            <div class="form-group row">
+                                <div class="col-md-6 offset-md-4">
+                                    <label for="termsconfirm"><input type="checkbox" name="termsconfirm" class="checkbox">{{ __('Ik ga akkoord met de voorwaarden') }}</label>
+                                </div>
+                            </div>
 
                             <div class="form-group row mb-0">
                                 <div class="col-md-6 offset-md-4">
@@ -131,6 +180,10 @@
                                         {{ __('Registreer') }}
                                     </button>
                                 </div>
+                            </div>
+
+                            <div class="form-group row extra">
+                                    <span>* Deze velden zijn optioneel, dienen ingevuld te worden wanneer je een eigen bedrijf hebt</span>
                             </div>
                         </form>
 
