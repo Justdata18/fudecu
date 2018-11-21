@@ -23,10 +23,10 @@
                 Wekomen allemaal voor allerlei verrassingen te staan.<br>
                 Om de continuïteit vanuw huidige levensstandaard te beschermen en onnodige stresste voorkomen,<br>
                 is het slim om uw inboedel (EN INKOMEN) te beschermen.<br>
-                Bescherming vooraf isimmersbeter dan verhelpenachteraf.<br>
-                Fudecuwerkt discreet en effectiefFudecukan u hiermeeblijven helpen!<br>
-                Fudecugeeft U altijd inzage in uw situatie Fudecukan ook helpen als u op dit moment een acuut probleem heeft.<br>
-                U beslistaltijd over de te nemen actie’s.
+                Bescherming vooraf is immers beter dan verhelpen achteraf.<br>
+                Fudecu werkt discreet en effectief Fudecu kan u hiermee blijven helpen!<br>
+                Fudecu geeft U altijd inzage in uw situatie Fudecu kan ook helpen als u op dit moment een acuut probleem heeft.<br>
+                U beslist altijd over de te nemen actie’s.
             </p>
         </div>
         </div>
