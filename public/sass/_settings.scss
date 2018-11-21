@@ -10,8 +10,20 @@ $color4: grey;
   .btn-primary {
     background-color: $color3;
     border: none;
+    transition: 1s all;
+
+    &:hover {
+      background-color: $color2;
+    }
   }
 
   .btn-link {
-    color: $color3 !important;
+    color: $color3;
+    text-decoration: none;
+    transition: 1s all;
+
+    &:hover {
+      color: $color2;
+      text-decoration: underline;
+    }
   }
