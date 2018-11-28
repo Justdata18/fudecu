@@ -2,6 +2,12 @@
 
 @section('content')
 <div class="container">
+    <ul class="menu">
+        <li><a href="/home">Home</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
+    </ul>
+
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
