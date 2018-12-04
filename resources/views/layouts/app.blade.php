@@ -24,7 +24,7 @@
     <div id="app">
         <div class="container logo">
             <div class="row justify-content-center">
-                <img class="head-logo" src="{{asset('img/fudecugr.jpg')}}">
+               <a href="/"><img class="head-logo" src={{asset('img/fudecugr.jpg')}} alt="Logo"></a>
             </div>
         </div>
 
