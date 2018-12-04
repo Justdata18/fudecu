@@ -4,7 +4,6 @@
 <div class="container">
 
     <ul class="menu">
-        <li><a href="/home">Home</a></li>
         <li><a href="/login">Login</a></li>
         <li><a href="/register">Register</a></li>
     </ul>
@@ -53,7 +52,7 @@
                     Bel: 085-3030791 voor meer info<br>
                     info@fudecu.nl www.fudecu.nl
                     Bezoekadres na afspraak:<br>
-                    Kolkweg 20 –10 te Lelystadof<br>
+                    Kolkweg 20 –10 te Lelystad of<br>
                     Markerkant 13-10 te Almere
                 </p>
             </div>
