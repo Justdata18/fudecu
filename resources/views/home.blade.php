@@ -4,7 +4,7 @@
 
 
     <div class="row justify-content-center">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="headerimage">
                 <img src="{{asset('img/head.jpg')}}">
             </div>
